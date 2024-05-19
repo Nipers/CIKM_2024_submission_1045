@@ -25,7 +25,6 @@ nohup python pretrain.py \
     --num_adapter 8 \
     --adapter_top_k 8 \
     --adp_intermediate_size 128 \
-    --n_freeze_layer 24 \
     --use_img \
     --img_emb_path ./pretrain_data/img_emb_beit3.npy\
     --img_marks_path ./pretrain_data/has_img_beit3.npy\
