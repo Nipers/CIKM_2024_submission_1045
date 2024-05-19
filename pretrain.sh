@@ -18,7 +18,7 @@ nohup python pretrain.py \
     --batch_size 8 \
     --learning_rate 5e-5 \
     --temp 0.05 \
-    --mlm_weight 0.2 \
+    --mlm_weight 0.1 \
     --use_moa \
     --adapter_type LoRA  \
     --num_adapter_layer 24 \
