@@ -10,7 +10,7 @@ nohup python pretrain.py \
     --domain_idx_file domain_idx.json \
     --item2id_file smap.json \
     --output_dir pretrain_log/Roberta_Large \
-    --num_train_epochs 32 \
+    --num_train_epochs 20 \
     --gradient_accumulation_steps 128 \
     --check_val_every_n_epoch 1 \
     --preprocessing_num_workers 32 \
