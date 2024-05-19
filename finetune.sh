@@ -4,7 +4,7 @@ nohup python finetune.py \
     --pretrain_ckpt ./pretrained.ckpt \
     --model_path ./MiniLM \
     --data_path ./Scientific \
-    --num_train_epochs 128 \
+    --num_train_epochs 15 \
     --batch_size 4 \
     --devices 0 1 2 3 4 5 6 7 \
     --gradient_accumulation_steps 64 \
