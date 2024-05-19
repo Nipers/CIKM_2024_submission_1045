@@ -7,10 +7,9 @@ nohup python finetune.py \
     --num_train_epochs 15 \
     --batch_size 4 \
     --devices 0 1 2 3 4 5 6 7 \
-    --gradient_accumulation_steps 64 \
+    --gradient_accumulation_steps 8 \
     --fp16 \
     --output_dir finetune_logs \
-    --finetune_negative_sample_size 128 \
     --use_img \
     --img_emb_path img_emb_beit3.npy \
     --img_marks_path has_img_beit3.npy \
