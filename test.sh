@@ -7,7 +7,6 @@ nohup python test.py \
     --num_train_epochs 128 \
     --batch_size 4 \
     --devices 0 1 2 3 4 5 6 7 \
-    --gradient_accumulation_steps 64 \
     --fp16 \
     --output_dir test_logs \
     --finetune_negative_sample_size 128 \
