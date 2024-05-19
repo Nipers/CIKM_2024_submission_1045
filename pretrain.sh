@@ -9,9 +9,9 @@ nohup python pretrain.py \
     --item_attr_file meta_data.json \
     --domain_idx_file domain_idx.json \
     --item2id_file smap.json \
-    --output_dir pretrain_log/Roberta_Large \
+    --output_dir pretrain_log/MOARecRoberta \
     --num_train_epochs 20 \
-    --gradient_accumulation_steps 128 \
+    --gradient_accumulation_steps 32 \
     --check_val_every_n_epoch 1 \
     --preprocessing_num_workers 32 \
     --dataloader_num_workers 32  \
