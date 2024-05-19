@@ -1,8 +1,8 @@
 
 nohup python pretrain.py \
     --model_name MOARecRoberta \
-    --model_path ckpt/MiniLM-L12-H384-distilled-from-RoBERTa-Large \
-    --init_ckpt ckpt/MiniLM-L12-H384-distilled-from-RoBERTa-Large/RecRoberta_init.bin \
+    --model_path ./MiniLM \
+    --init_ckpt ./MiniLM/RecRoberta_init.bin \
     --data_path ./pretrain_data \
     --train_file train.json \
     --dev_file dev.json \
